@@ -41,6 +41,7 @@ require (
 require (
 	github.com/amikos-tech/chroma-go v0.1.4
 	github.com/milvus-io/milvus-sdk-go/v2 v2.4.0
+	github.com/neo4j/neo4j-go-driver/v5 v5.28.1
 	github.com/opensearch-project/opensearch-go v1.1.0
 	github.com/pgvector/pgvector-go v0.1.1
 	github.com/pinecone-io/go-pinecone v0.4.1
@@ -294,7 +295,7 @@ require (
 	github.com/rogpeppe/go-internal v1.13.1 // indirect
 	github.com/rs/zerolog v1.31.0 // indirect
 	github.com/shirou/gopsutil/v4 v4.25.5 // indirect
-	github.com/shopspring/decimal v1.2.0 // indirect
+	github.com/shopspring/decimal v1.4.0 // indirect
 	github.com/sirupsen/logrus v1.9.3 // indirect
 	github.com/spf13/cast v1.3.1 // indirect
 	github.com/tidwall/gjson v1.14.4 // indirect
