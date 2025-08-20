@@ -2,7 +2,6 @@ module github.com/tmc/langchaingo/examples/google-alloydb-vectorstore-example
 
 go 1.24.3
 
-
 require github.com/tmc/langchaingo v0.1.14-pre.2
 
 require (
