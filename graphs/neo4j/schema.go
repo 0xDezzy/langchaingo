@@ -162,19 +162,6 @@ func (n *Neo4j) GetSchema() string {
 	return n.schemaCache
 }
 
-// GetStructuredSchema returns the structured schema information
-func (n *Neo4j) GetStructuredSchema() map[string]interface{} {
-	n.schemaMux.RLock()
-	defer n.schemaMux.RUnlock()
-
-	// Return a copy to prevent external modification
-	result := make(map[string]interface{})
-	for k, v := range n.structuredSchema {
-		result[k] = v
-	}
-	return result
-}
-
 // formatSchema formats the structured schema into a human-readable string
 func (n *Neo4j) formatSchema(schema map[string]interface{}) string {
 	var parts []string
