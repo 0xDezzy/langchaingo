@@ -315,6 +315,18 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
 
-require github.com/testcontainers/testcontainers-go/modules/mariadb v0.38.0
+require (
+	github.com/kuzudb/go-kuzu v0.11.1
+	github.com/surrealdb/surrealdb.go v0.9.0
+	github.com/testcontainers/testcontainers-go/modules/mariadb v0.38.0
+)
 
-require github.com/stretchr/objx v0.5.2 // indirect
+require (
+	github.com/fxamacker/cbor/v2 v2.7.0 // indirect
+	github.com/gofrs/uuid v4.4.0+incompatible // indirect
+	github.com/gorilla/websocket v1.5.3 // indirect
+	github.com/stretchr/objx v0.5.2 // indirect
+	github.com/testcontainers/testcontainers-go/modules/neo4j v0.37.0 // indirect
+	github.com/testcontainers/testcontainers-go/modules/surrealdb v0.38.0 // indirect
+	github.com/x448/float16 v0.8.4 // indirect
+)
